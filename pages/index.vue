@@ -9,9 +9,6 @@
     </nav>
   </header>
   <div>
-    <AppAlert>
-      this is alert.
-    </AppAlert>
    
   </div>
 </template>
