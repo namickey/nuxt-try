@@ -1,23 +1,19 @@
-<script setup>
-  const login = async () => {
-    console.log("1");
-    const {  data } = await useFetch('/api/login');
-    console.log(data.value);
-    if (data.value != null) {
-      console.log("2");
-      return navigateTo({
-        path: '/',
-      });
-    };
-  }
-
-</script>
 <template>
     <div>
-     login
+      <h1>login page</h1>
     </div>
     <div>
       <button @click="login">login</button>
     </div>
 </template>
-  
+
+<script setup>
+const login = async () => {
+  const { login } = useAuth()
+  login().then(() => {
+    return navigateTo({
+      path: '/',
+    });
+  })
+}
+</script>
