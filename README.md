@@ -1,6 +1,9 @@
-# Nuxt 3 Minimal Starter
+# nuxt-try
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ref  
+https://debug-life.net/entry/4169  
+https://zenn.dev/czbone/articles/81a279d38ba301  
+https://github.com/czbone/nuxt3-auth-demo/blob/main/layouts/default.vue  
 
 ## Setup
 
@@ -13,8 +16,6 @@ yarn install
 # npm
 npm install
 
-# pnpm
-pnpm install
 ```
 
 ## Development Server
@@ -25,18 +26,3 @@ Start the development server on http://localhost:3000
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
