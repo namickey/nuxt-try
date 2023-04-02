@@ -31,12 +31,18 @@
             </div>
         </div>
     </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; nuxt-try 2023</small></div>
+    </div>
 </template>
 <style scoped>
 .footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.copyright {
+  background-color: #1a252f;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <NuxtLink to="/" class="navbar-brand">
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-light">
+        <div class="container-fluid bg-secondary" >
+            <NuxtLink to="/" class="navbar-brand text-white">
                 <img src="/icon-green.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
                 Nuxt3
             </NuxtLink>
@@ -12,15 +12,15 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <NuxtLink to="/" class="nav-link active">Home</NuxtLink>
+                        <NuxtLink to="/" class="nav-link text-white">Home</NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <NuxtLink to="/features" class="nav-link">Features</NuxtLink>
+                        <NuxtLink to="/features" class="nav-link text-white">Features</NuxtLink>
                     </li>
                 </ul>
                 <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
                     <li class="nav-item col-6 col-md-auto">
-                        <a class="nav-link p-2" href="https://github.com/twbs" target="_blank" rel="noopener">
+                        <a class="nav-link p-2" href="#" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
                                 class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img">
                                 <title>GitHub</title>
@@ -32,7 +32,7 @@
                         </a>
                     </li>
                     <li class="nav-item col-6 col-md-auto">
-                        <a class="nav-link p-2" href="https://twitter.com/getbootstrap" target="_blank" rel="noopener">
+                        <a class="nav-link p-2" href="#" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
                                 class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 416.32" role="img">
                                 <title>Twitter</title>
@@ -44,8 +44,7 @@
                         </a>
                     </li>
                     <li class="nav-item col-6 col-md-auto">
-                        <a class="nav-link p-2" href="https://bootstrap-slack.herokuapp.com/" target="_blank"
-                            rel="noopener">
+                        <a class="nav-link p-2" href="#" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36"
                                 class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 512" role="img">
                                 <title>Slack</title>
@@ -59,7 +58,7 @@
                         </a>
                     </li>
                     <li class="nav-item col-6 col-md-auto">
-                        <a class="nav-link p-2" href="https://opencollective.com/bootstrap" target="_blank" rel="noopener">
+                        <a class="nav-link p-2" href="#" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
                                 fill-rule="evenodd" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 40 41"
                                 role="img">

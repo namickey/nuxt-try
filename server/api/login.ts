@@ -1,4 +1,3 @@
 export default defineEventHandler(() => {
-    console.log("hello api");
-    return 'hello api'
+    return 'token-nuxt-try'
 });
