@@ -21,8 +21,8 @@ nvm install --lts
 echo 'cd /home/ec2-user/nuxt-try'
 cd /home/ec2-user/nuxt-try
 
-echo 'npm install -Y'
-npm install -Y
+echo 'yes npm install'
+yes | npm install
 
 echo 'npm run dev &'
 npm run dev &
