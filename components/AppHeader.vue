@@ -78,3 +78,11 @@
             </div>
         </div>
 </nav></template>
+
+<script setup>
+const { $listen } = useNuxtApp()
+
+$listen('user:registered', (user) => {
+  console.log('A user was registered!', user)
+})
+</script>

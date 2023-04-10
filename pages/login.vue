@@ -18,11 +18,15 @@
     </div>
   </section>
 </template>
-
 <script setup>
+const { $event } = useNuxtApp()
+const onUserRegistered = (user) => {
+  $event('user:registered', user)
+}
 const login = async () => {
   const { login } = useAuth()
   login().then(() => {
+    onUserRegistered('aaaaaaaa');
     return navigateTo({
       path: '/',
     });
